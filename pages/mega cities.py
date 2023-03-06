@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 import os
 import matplotlib.pyplot as plt
-import folium
+
 
 
 # absolute path to this file
