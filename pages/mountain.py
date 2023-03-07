@@ -12,7 +12,6 @@ FILE_DIR = os.path.dirname(os.path.abspath(__file__))
 PARENT_DIR = os.path.join(FILE_DIR, os.pardir)
 # absolute path of directory_of_interest
 dir_of_interest = os.path.join(PARENT_DIR, "resources")
-
 IMAGE_PATH = os.path.join(dir_of_interest, "images", "moun.jpg")
 DATA_PATH = os.path.join(dir_of_interest, "data", "mountainranges.csv")
 

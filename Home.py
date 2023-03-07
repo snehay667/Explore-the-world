@@ -5,13 +5,13 @@ import time
 # Set the page configuration
 st.set_page_config(
     page_title="Explore the World",
-    page_icon=":earth_americas:",
+    page_icon=":earth_americas:z",
     layout="wide"
 )
 
 # Add a title and subtitle
 st.title("Explore the World")
-
+st.subheader("Learn about the world's most famous cities, mountains, and more!")
 
 # Define a function to create the capital city page
 def create_capital_city():

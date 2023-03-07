@@ -6,7 +6,6 @@ import os
 import matplotlib.pyplot as plt
 
 
-
 # absolute path to this file
 FILE_DIR = os.path.dirname(os.path.abspath(__file__))
 # absolute path to this file's root directory
@@ -19,6 +18,7 @@ DATA_PATH = os.path.join(dir_of_interest, "data", "mega_cities.csv")
 
 st.title("Mega City Visualization Dashboard")
 st.write("Explore the data and statistics of the world's most famous mountains!")
+
 
 img = image.imread(IMAGE_PATH)
 st.image(img)
